@@ -44,6 +44,7 @@ def train(model: MoleculeModel,
 
     print("\n\nWe are training for one epoch!!!!\n\n")
     for batch in tqdm(data_loader, total=len(data_loader)):
+
         # Prepare batch
         batch: MoleculeDataset
 

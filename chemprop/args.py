@@ -11,6 +11,9 @@ from tap import Tap  # pip install typed-argument-parser (https://github.com/swa
 from chemprop.features import get_available_features_generators
 
 
+Metric = Literal['auc', 'prc-auc', 'rmse', 'mae', 'mse', 'r2', 'accuracy', 'cross_entropy']
+
+
 def get_checkpoint_paths(checkpoint_path: Optional[str] = None,
                          checkpoint_paths: Optional[List[str]] = None,
                          checkpoint_dir: Optional[str] = None,
@@ -147,7 +150,7 @@ class TrainArgs(CommonArgs):
     """Path to separate val set, optional."""
     separate_test_path: str = None
     """Path to separate test set, optional."""
-    split_type: Literal['random', 'scaffold_balanced', 'predetermined', 'crossval', 'index_predetermined'] = 'random'
+    split_type: Literal['random', 'scaffold_balanced', 'predetermined', 'crossval', 'cv', 'index_predetermined'] = 'random'
     """Method of splitting the data into train/val/test."""
     split_sizes: Tuple[float, float, float] = (0.8, 0.1, 0.1)
     """Split proportions for train/validation/test sets."""
@@ -170,8 +173,13 @@ class TrainArgs(CommonArgs):
     """
     pytorch_seed: int = 0
     """Seed for PyTorch randomness (e.g., random initial weights)."""
-    metric: Literal['auc', 'prc-auc', 'rmse', 'mae', 'mse', 'r2', 'accuracy', 'cross_entropy'] = None
-    """Metric to use during evaluation. Defaults to "auc" for classification and "rmse" for regression."""
+    metric: Metric = None
+    """
+    Metric to use during evaluation. It is also used with the validation set for early stopping.
+    Defaults to "auc" for classification and "rmse" for regression.
+    """
+    extra_metrics: List[Metric] = []
+    """Additional metrics to use to evaluate the model. Not used for early stopping."""
     save_dir: str = None
     """Directory where model checkpoints will be saved."""
     save_smiles_splits: bool = False
@@ -190,6 +198,8 @@ class TrainArgs(CommonArgs):
     Below this number, caching is used and data loading is sequential.
     Above this number, caching is not used and data loading is parallel.
     """
+    save_preds: bool = False
+    """Whether to save test split predictions during training."""
 
     # Model arguments
     bias: bool = False
@@ -241,7 +251,7 @@ class TrainArgs(CommonArgs):
     grad_clip: float = None
     """Maximum magnitude of gradient during training."""
     class_balance: bool = False
-    """Trains with an equal number of positives and negatives in each batch (only for single task classification)."""
+    """Trains with an equal number of positives and negatives in each batch."""
 
     def __init__(self, *args, **kwargs) -> None:
         super(TrainArgs, self).__init__(*args, **kwargs)
@@ -251,6 +261,11 @@ class TrainArgs(CommonArgs):
         self._num_tasks = None
         self._features_size = None
         self._train_data_size = None
+
+    @property
+    def metrics(self) -> List[str]:
+        """The list of metrics used for evaluation. Only the first is used for early stopping."""
+        return [self.metric] + self.extra_metrics
 
     @property
     def minimize_score(self) -> bool:
@@ -334,10 +349,15 @@ class TrainArgs(CommonArgs):
             else:
                 self.metric = 'rmse'
 
-        if not ((self.dataset_type == 'classification' and self.metric in ['auc', 'prc-auc', 'accuracy']) or
-                (self.dataset_type == 'regression' and self.metric in ['rmse', 'mae', 'mse', 'r2']) or
-                (self.dataset_type == 'multiclass' and self.metric in ['cross_entropy', 'accuracy'])):
-            raise ValueError(f'Metric "{self.metric}" invalid for dataset type "{self.dataset_type}".')
+        if self.metric in self.extra_metrics:
+            raise ValueError(f'Metric {self.metric} is both the metric and is in extra_metrics. '
+                             f'Please only include it once.')
+
+        for metric in self.metrics:
+            if not ((self.dataset_type == 'classification' and metric in ['auc', 'prc-auc', 'accuracy']) or
+                    (self.dataset_type == 'regression' and metric in ['rmse', 'mae', 'mse', 'r2']) or
+                    (self.dataset_type == 'multiclass' and metric in ['cross_entropy', 'accuracy'])):
+                raise ValueError(f'Metric "{metric}" invalid for dataset type "{self.dataset_type}".')
 
         # Validate class balance
         if self.class_balance and self.dataset_type != 'classification':
