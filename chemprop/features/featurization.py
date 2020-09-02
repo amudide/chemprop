@@ -131,6 +131,8 @@ class MolGraph:
         # Convert SMILES to RDKit molecule if necessary
         if type(mol) == str:
             mol = Chem.MolFromSmiles(mol)
+      #  else:
+           # print("\n Anish: They were already in Chem.Mol format \n")
 
         self.n_atoms = 0  # number of atoms
         self.n_bonds = 0  # number of bonds
@@ -191,6 +193,9 @@ class BatchMolGraph:
         r"""
         :param mol_graphs: A list of :class:`MolGraph`\ s from which to construct the :class:`BatchMolGraph`.
         """
+
+        #self.molgraphs = mol_graphs # Anish addition. Keep a list of the original mol graphs
+
         self.atom_fdim = get_atom_fdim()
         self.bond_fdim = get_bond_fdim()
 

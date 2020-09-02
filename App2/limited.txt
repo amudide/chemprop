@@ -1,0 +1,8 @@
+845: just bioassay 625185
+1090: bioassay 625185, along with other bioassays retrieved against the same protein target (automated by pubchem. delete duplicates with map -> size: 5000 -> 1000)
+1169 (effective train = 498, down from 934 since only 26% positive): 1090 + 79 from bioassay 765185
+1222 (effective = 500): 1090 + 132 from bioassay 765185 combined with other bioassays against same target. this reduced accuracy :/
+1255: prev + bioassay 725969. there are duplicates from 765185, but with different results due to inconclusiveness. there might be duplicates with the same result tho, so I should probably delete those. accuracy went down again tp 81%
+1971: 1222 + bioassay 363 (749).
+7046: 1222 + bioassay 363 test.
+5824: bioassay 363 test (everything but duplicates and the 749 in 363)

@@ -42,9 +42,26 @@ def train(model: MoleculeModel,
     model.train()
     loss_sum, iter_count = 0, 0
 
+    print("\n\nWe are training for one epoch!!!!\n\n")
     for batch in tqdm(data_loader, total=len(data_loader)):
         # Prepare batch
         batch: MoleculeDataset
+
+
+     #   print("\nANISH: ", batch.smiles(), "size: ", len(batch.smiles()))
+
+        #places = ['Berlin', 'Cape Town', 'Sydney', 'Moscow']
+
+        with open('cursmiles.txt', 'w') as filehandle:
+            
+            filetmp = open('cursmiles.txt', 'r+')
+            filetmp.truncate(0)
+
+       #     print("\n\nANISH: The size of the ligand batch is ", len(batch.smiles()), "\n\n")
+
+            for smilesstring in batch.smiles():
+                filehandle.write('%s\n' % smilesstring)
+
         mol_batch, features_batch, target_batch = batch.batch_graph(), batch.features(), batch.targets()
         mask = torch.Tensor([[x is not None for x in tb] for tb in target_batch])
         targets = torch.Tensor([[0 if x is None else x for x in tb] for tb in target_batch])

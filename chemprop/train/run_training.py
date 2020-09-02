@@ -230,8 +230,8 @@ def run_training(args: TrainArgs, logger: Logger = None) -> List[float]:
                     writer.add_scalar(f'validation_{task_name}_{args.metric}', val_score, n_iter)
 
             # Save model checkpoint if improved validation score
-            if args.minimize_score and avg_val_score < best_score or \
-                    not args.minimize_score and avg_val_score > best_score:
+            if (args.minimize_score and avg_val_score < best_score or \
+                    not args.minimize_score and avg_val_score > best_score):
                 best_score, best_epoch = avg_val_score, epoch
                 save_checkpoint(os.path.join(save_dir, MODEL_FILE_NAME), model, scaler, features_scaler, args)
 

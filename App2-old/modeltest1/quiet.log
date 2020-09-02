@@ -1,0 +1,89 @@
+Fold 0
+Fold 0
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:01
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:01
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:01
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:01
+Fold 0
+Fold ANISH
+Test auc = 1.0
+Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:01
+Fold 0
+Fold ANISH
+Fold 0
+Fold ANISH
+Fold 0
+Fold ANISH
+Fold 0
+Fold ANISH
+Fold 0
+Fold ANISH
+Fold 0
+Fold ANISH
+Warning: Found a task with targets all 0s or all 1s
+Test auc = nan
+Seed 0 ==> test auc = nan
+Overall test auc = nan +/- nan
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 0.6666666666666667
+Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:00
+Fold 0
+Fold ANISH
+Test auc = 0.6666666666666667
+Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:00

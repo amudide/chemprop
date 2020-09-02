@@ -1,0 +1,356 @@
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Warning: Found a task with targets all 0s or all 1s
+Model 0 best validation auc = -inf on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:06
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:09
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:08
+Fold 0
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:18
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:17
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:09
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:18
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:18
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:13
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 3
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:12
+Fold 0
+Fold 0
+Model 0 best validation auc = 0.500000 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:12
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:12
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:12
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:12
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:15
+Fold 0
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:16
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:16
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:11
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Model 0 best validation auc = 0.333333 on epoch 0
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Model 0 best validation auc = 0.666667 on epoch 3
+Model 0 test auc = 0.500000
+Ensemble test auc = 0.500000
+1-fold cross validation
+	Seed 0 ==> test auc = 0.500000
+Overall test auc = 0.500000 +/- 0.000000
+Elapsed time = 0:00:10
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 0.666667
+Ensemble test auc = 0.666667
+1-fold cross validation
+	Seed 0 ==> test auc = 0.666667
+Overall test auc = 0.666667 +/- 0.000000
+Elapsed time = 0:00:16
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:32
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:24
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:00:28
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:01:27
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:02:26
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:02:06
+Fold 0
+Model 0 best validation auc = 1.000000 on epoch 0
+Model 0 test auc = 1.000000
+Ensemble test auc = 1.000000
+1-fold cross validation
+	Seed 0 ==> test auc = 1.000000
+Overall test auc = 1.000000 +/- 0.000000
+Elapsed time = 0:02:38

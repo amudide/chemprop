@@ -29,6 +29,18 @@ def predict(model: MoleculeModel,
         batch: MoleculeDataset
         mol_batch, features_batch = batch.batch_graph(), batch.features()
 
+        with open('cursmiles.txt', 'w') as filehandle:
+
+            print("\n\nWe are evaluating 20 percent of the data!!!!\n\n")
+            
+            filetmp = open('cursmiles.txt', 'r+')
+            filetmp.truncate(0)
+
+            print("\n\nANISH: The size of the ligand batch is ", len(batch.smiles()), "\n\n")
+
+            for smilesstring in batch.smiles():
+                filehandle.write('%s\n' % smilesstring)
+
         # Make predictions
         with torch.no_grad():
             batch_preds = model(mol_batch, features_batch)
